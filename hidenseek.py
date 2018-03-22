@@ -4,7 +4,7 @@ from random import *
 from mcpi import minecraft
 from mcpi import block
 import time
-mc = minecraft.Minecraft.create("localhost", 4711,name="erik")
+mc = minecraft.Minecraft.create("localhost", 4711,name="loggedinname")
 # pos = mc.player.getPos()
 
 def distanceBetweenPoints(point1, point2):
