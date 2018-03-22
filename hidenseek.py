@@ -44,28 +44,6 @@ currentHiderPositions = []
 
 distanceFromHider = []
 
-
-# makeBuilding()
-
-# for entityId in entityIds:  # loops thru the list to print the list of IDs in game
-#     print entityId
-#     print len(entityIds)
-# while True:
-# 	#every 5 seconds print each player's ID and tile position
-# 	for player in entityIds:
-# 		print player
-# 		print mc.entity.getTilePos(player)
-# 	time.sleep(5)
-
-
-# lastDistanceFromBlock = distanceBetweenPoints(randomBlockPos, lastPlayerPos)
-
-
-# .APPEND add items to list
-# mylist.remove('two')
-# mylist.pop()
-# del mylist[1:3]
-
 for x in range(0, (len(entityIds))):
 	entityPositions.append(mc.entity.getPos(entityIds[x]))
 	if entityIds[x] != seekerID:
